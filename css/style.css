@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 15px 0;
+}
+
+.navbar-tow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.navbar-three {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+#header {
+    padding-top: 20px;
+}
+
+.navbar-three {
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    width: 150px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    height: 44px;
+    background: #575445;
+    border-radius: 6px;
+}
+
+.header-btn {
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    width: 150px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    height: 44px;
+    background: #575445;
+    border-radius: 6px;
+}
+
+
+#hero{
+    background: linear-gradient(90deg, wheat,lightyellow,wheat);
+    min-height: 80vh;
+}
+.label{
+    display: flex;
+}
+.label label{
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .4s;
+    border: 2px solid rosybrown;
+    margin:  20px;
+    border-radius: 8px;
+}
+.label label:hover{
+    background: burlywood;
+    color: black;
+    transition: .4s;
+    transform: scale(1.1);
+    border: 2px solid pink;
+    border-radius: 5px;
+
+}
+.tabs img{
+    width: 250px;
+    height: 200px;
+    margin: 0 5px;
+    object-fit: cover;
+    border:2px solid rosybrown;
+    padding: 3px;
+}
+
+.tabs input{
+    display: none;
+}
+.label{
+    display: flex;
+}
+
+#Kyrgyzstan:checked~.Batken,
+#Kyrgyzstan:checked~.Chüy,
+#Kyrgyzstan:checked~.Jalal-Abad,
+#Kyrgyzstan:checked~.Naryn,
+#Kyrgyzstan:checked~.Talas,
+#Kyrgyzstan:checked~.Issyk-Kul ,
+#Kyrgyzstan:checked~.Osh{
+    transition: .4s;
+   }
+#Batken:checked~.Chüy,
+#Batken:checked~.Jalal-Abad,
+#Batken:checked~.Naryn,
+#Batken:checked~.Talas,
+#Batken:checked~.Issyk-Kul ,
+#Batken:checked~.Osh,
+#Batken:checked~.Kyrgyzstan {
+    opacity: .2;
+    transition: .4s;
+    margin: 10px;
+}
+#Chüy:checked~.Batken,
+#Chüy:checked~.Naryn,
+#Chüy:checked~.Jalal-Abad,
+#Chüy:checked~.Talas,
+#Chüy:checked~.Issyk-Kul ,
+#Chüy:checked~.Kyrgyzstan ,
+#Chüy:checked~.Osh{
+    opacity: .2;
+    transition: .4s;
+    margin: 10px;
+    }
+#Jalal-Abad:checked~.Batken,
+#Jalal-Abad:checked~.Chüy,
+#Jalal-Abad:checked~.Naryn,
+#Jalal-Abad:checked~.Issyk-Kul ,
+#Jalal-Abad:checked~.Osh,
+#Jalal-Abad:checked~.Kyrgyzstan,
+#Jalal-Abad:checked~.Talas{
+    opacity: .2;
+    transition: .4s;
+    margin: 10px;
+   }
+#Naryn:checked~.Batken,
+#Naryn:checked~.Chüy,
+#Naryn:checked~.Jalal-Abad,
+#Naryn:checked~.Talas,
+#Naryn:checked~.Issyk-Kul ,
+#Naryn:checked~.Kyrgyzstan ,
+#Naryn:checked~.Osh{
+    opacity: .2;
+    transition: .4s;
+    margin: 10px;
+   }
+#Osh:checked~.Batken,
+#Osh:checked~.Chüy,
+#Osh:checked~.Jalal-Abad,
+#Osh:checked~.Naryn,
+#Osh:checked~.Talas,
+#Osh:checked~.Kyrgyzstan,
+#Osh:checked~.Issyk-Kul {
+    opacity: .2;
+    transition: .4s;
+    margin: 10px;
+   }
+#Issyk-Kul:checked~.Batken,
+#Issyk-Kul:checked~.Chüy,
+#Issyk-Kul:checked~.Jalal-Abad,
+#Issyk-Kul:checked~.Naryn,
+#Issyk-Kul:checked~.Talas,
+#Issyk-Kul:checked~.Kyrgyzstan,
+#Issyk-Kul:checked~.Osh{
+    opacity: .2;
+    transition: .4s;
+    margin: 10px;
+   }
+
+#Talas:checked~.Batken,
+#Talas:checked~.Chüy,
+#Talas:checked~.Jalal-Abad,
+#Talas:checked~.Naryn,
+#Talas:checked~.Issyk-Kul ,
+#Talas:checked~.Kyrgyzstan ,
+#Talas:checked~.Osh{
+    opacity: .2;
+    transition: .4s;
+    margin: 10px;
+}
+.link-one {
+    margin: 80px;
+    font-weight:600;
+    font-size: 18px;
+    transition: .1s;
+    color: purple;
+    border: 1px solid #1100D9;
+    border-radius: 14px;
+    padding: 10px ;
+}
